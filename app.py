@@ -13,8 +13,10 @@ import os
 load_dotenv()
 streamlit_color.main()
 
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
+headers={
+    "authorization":st.secrets["OPENAI_API_KEY"],
+}
 st.title("CV Analysis Tool")
 
 # Initialize questions in session state if not present
