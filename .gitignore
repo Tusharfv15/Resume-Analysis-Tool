@@ -1,9 +1,4 @@
-langchain.ipynb
-prompt.ipynb
-resume_qa.ipynb
-resumeQAfn.ipynb
-final.py
-agents.ipynb
+
 .env
 data
 __pycache__
